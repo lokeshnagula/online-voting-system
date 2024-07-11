@@ -1,0 +1,118 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+<script>
+fuction showmessage(){
+alert("your vote has been recorded");
+} 
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>E-voting department</title>
+        <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="header container-fluid bg-white">
+            <div id="menu-jk" class="nav-col text-white shadow-md mb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 pt-2 pb-2 align-items-center">
+                           <h1> E-VOTING <br> </h1> 
+                            <a  data-bs-toggle="collapse" data-bs-target="#menu" class="float-end text-dark d-lg-none pt-1 ps-3"><i class="bi pt-1 fs-1 cp bi-list"></i></a>
+                        </div>
+                        <div id="menu" class="col-lg-6 d-none d-lg-block">
+                            <ul class="float-end mul d-inline-block">
+                                <li class="float-md-start px-4 pe-1 pt-4">
+                                   <a href="result.html" class="fw-bold fs-8 text-primary"> View Result</a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-xl big-padding">
+            <div class="row section-title">
+              
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-white text-center mb-4 votcard shadow-md bg-white p-4 pt-5">
+                        <img class="rounded-pill shadow-md p-2" src="assets/images/testimonial/kk.jpeg" alt="">
+                        <h4 class="mt-3 fs-5 mb-1 fw-bold">KCR<br></h4>
+                       
+                    
+                        <button   data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">View Manifesto</button>
+                        <button onclick="showmessage()" class="btn btn-danger fw-bolder px-4 ms-2 fs-8" >Vote</button>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6">
+                    <div class="text-white text-center mb-4 votcard shadow-md bg-white p-4 pt-5">
+                        <img class="rounded-pill shadow-md p-2" src="assets/images/testimonial/rr.jpeg" alt="">
+                        <h4 class="mt-3 fs-5 mb-1 fw-bold">revanth reddy</h4>
+                       
+                        
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">View Manifesto</button>
+                        <button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6">
+                    <div class="text-white text-center mb-4 votcard shadow-md bg-white p-4 pt-5">
+                        <img class="rounded-pill shadow-md p-2" src="assets/images/testimonial/tt.jpeg" alt="">
+                        <h4 class="mt-3 fs-5 mb-1 fw-bold">etela rajender</h4>
+                       
+                       
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary fw-bolder fs-8">View Manifesto</button>
+                        <button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>
+                    </div>
+                </div>
+                
+                 <
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-6 fw-bold fs-5" id="exampleModalLabel">View Manifesto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul class="molist">
+                    <li>It has promised to gradually increase its flagship ‘Rythu Bandhu’ scheme, currently amounting to Rs 10,000 per acre every year to land-owning farmers, to Rs 16,000 per acre every year.
+
+The party also says it will increase its existing monthly ‘pensions’ gradually over its third term in power if elected. It proposes to increase its ‘Aasara’ pension, given to a range of beneficiaries including widows, the elderly, AIDS patients and beedi workers, from Rs 2,016 per month to Rs 5,016 per month.
+
+It has also promised to increase pensions to the physically handicapped from Rs 3,016 per month to Rs 6,016 per month.
+
+It will increase the coverage limit for its flagship health insurance scheme for families to Rs 15 lakh and promised a new life insurance scheme worth Rs 5 lakh for all below poverty line (BPL) families in the state, in which the government would shoulder the full premium.
+
+
+Eligible poor women have been promised a monthly honorarium of Rs 3,000, eligible poor families gas cylinders at Rs 400 and white ration card holders are assured fine rice.
+
+Publishing a “detailed calendar” for government job recruitment, opening one residential school for poor students from upper castes in every constituency and upgrading over 200 minority junior degree colleges in the state are some of the other promises in the BRS’s manifesto.
+
+The detailed calendar promise is important as exam cancellations earlier this year put the BRS in a tight spot, creating frustration among aspiring youth and providing ammunition to the growing opposition bloc in the state</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+   
+    </body>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="assets/plugins/testimonial/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</html>
